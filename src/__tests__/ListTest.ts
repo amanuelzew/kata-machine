@@ -8,6 +8,7 @@ export function test_list(list: List<number>): void {
     expect(list.length).toEqual(2);
 
     list.append(11);
+    debugger
     expect(list.removeAt(1)).toEqual(9);
     expect(list.remove(9)).toEqual(undefined);
     expect(list.removeAt(0)).toEqual(5);
