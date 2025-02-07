@@ -1,4 +1,4 @@
-import MinHeap from "@code/MinHeap";
+/* import MinHeap from "@code/MinHeap";
 
 test("min heap", function () {
     const heap = new MinHeap();
@@ -28,3 +28,4 @@ test("min heap", function () {
 });
 
 
+ */

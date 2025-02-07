@@ -45,6 +45,26 @@ You take one card at a time and insert it into its correct position among the pr
 O(N^2)
 5,6,4,1 -> [in between 5,6,6,1 -> 5,5,6,1] -> 4,5,6,1
 
+*quick sort
+-it is a divide and conqure algorithm
+-everything less than the pivot will be less or equal to it;everything to the right will be larger
+-O(n log n) or [ O(n^2) if its a reversed array ]
+8,7,6,4,5 -> [4,7,6,8,5 in between] -> 4,5,6,8,7
+
+*merge sort
+-it is a divide and conqure algorithm
+-O(n log n) 
+Initial Array: [38, 27, 43, 3, 9, 82, 10]
+Divide:
+[38, 27, 43, 3] | [9, 82, 10]
+[38, 27] | [43, 3] | [9] | [82, 10]
+[38] | [27] | [43] | [3] | [9] | [82] | [10]
+
+Merge:
+[27, 38] | [3, 43] | [9] | [10, 82]
+[3, 27, 38, 43] | [9, 10, 82]
+[3, 9, 10, 27, 38, 43, 82]
+
 *Linked list
 -what sucked aobut array its un growable,there in no deletion and insertion
 -it is a node based DS
@@ -53,17 +73,47 @@ O(N^2)
 -a line a FIFO structure
 -specfic implemntation of a linked list,constrainig what we can do with linked list
 
+*Stack
+-a line a LIFO structure
+-Think of it like a stack of plates: you add new plates to the top, 
+and you remove plates from the top as well.The last plate you put on is the first one you take off.
+
+
 *Arrya list,Array buffer
 
 *Recursion 
 -a technique used to solve problems by breaking them down into smaller instances of the same problem
 -solves problems by using functions that call themselves within their own code
+-the line analogy (what number am i?) =ask the questuon what number are you? for every person in front 
+until we reach the first person 
+-call stack=it is like a todo list
+
 
 *maze solver
 
-*quick sort
--it is a divide and conqure algorithm
--O(n logn) or [ O(n^2) if its a reversed array ]
-8,7,6,4,5 -> [4,7,6,8,5 in between] -> 4,5,6,8,7
+
+
 
 *Doubly linked list
+
+*Tree
+-tree terminologies binary tree,leaf,branching factor
+-traversals pre,in,post order (DFS) they preserve the shape 
+-BFS 
+-exercise  Balanced Binary Tree,Univalued Binary Tree,compare two trees,
+Construct Binary Tree from Preorder and Inorder Traversal
+
+*BST
+-find=running time is between logn-O(n) or logn-O(h)
+-insert
+[15,7,51,4,X,25,100,X,X,X,37,X,X] in BFS
+-deletion 
+ case 1-no child    ->just delete it delete(4)
+ case 2-one child   ->move the parent pointer to the child (a lot like LL) delete(7)
+ case 3-got 2 child ->move to the left and look for the larget element and replace it delete(51)
+-balancing ->AVL red-black
+-inoredr traversal gives orderd list
+-exercise validBST
+
+*Heap
+-priority queue

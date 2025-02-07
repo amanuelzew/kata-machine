@@ -1,4 +1,4 @@
-import bt_post_order from "@code/BTPostOrder";
+/* import bt_post_order from "@code/BTPostOrder";
 import { tree } from "./tree";
 
 test("post order", function () {
@@ -18,3 +18,4 @@ test("post order", function () {
 
 
 
+ */

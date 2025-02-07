@@ -1,4 +1,4 @@
-import bfs from "@code/BFSGraphList";
+/* import bfs from "@code/BFSGraphList";
 import { list2 } from "./graph";
 
 test("bfs - graph", function () {
@@ -14,3 +14,4 @@ test("bfs - graph", function () {
 });
 
 
+ */

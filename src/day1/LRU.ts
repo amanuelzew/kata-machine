@@ -1,4 +1,4 @@
-export default class LRU<K, V> {
+/* export default class LRU<K, V> {
     private length: number;
 
     
@@ -12,4 +12,4 @@ export default class LRU<K, V> {
     get(key: K): V | undefined {
 
 }
-}
+} */

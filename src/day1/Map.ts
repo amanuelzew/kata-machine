@@ -1,4 +1,4 @@
-export default class Map<T extends (string | number), V> {
+/* export default class Map<T extends (string | number), V> {
     
 
     
@@ -18,4 +18,4 @@ export default class Map<T extends (string | number), V> {
     size(): number {
 
 }
-}
+} */

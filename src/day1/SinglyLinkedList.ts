@@ -97,6 +97,7 @@ export default class SinglyLinkedList<T> {
 
         return curr?.value;
     }
+  
 }
 
 /*

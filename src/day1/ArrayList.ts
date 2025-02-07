@@ -1,4 +1,4 @@
-export default class ArrayList<T> {
+/* export default class ArrayList<T> {
     public length: number;
 
     
@@ -24,4 +24,4 @@ export default class ArrayList<T> {
     removeAt(idx: number): T | undefined {
 
 }
-}
+} */

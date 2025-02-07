@@ -4,6 +4,8 @@
         "@code/(.*)": [
             "<rootDir>/src/day1/$1"
         ]
+       
     },
+    "testPathIgnorePatterns": ["/node_modules/", "<rootDir>/dist/"],
     "preset": "ts-jest"
 }
